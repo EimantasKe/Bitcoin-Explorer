@@ -7,10 +7,10 @@ import json
 ssh = SSHClient()
 ssh.load_system_host_keys()
 ssh.set_missing_host_key_policy(AutoAddPolicy())
-port = 3637
-hostname = "158.129.140.201"
-username = "user033"
-password = "D71E4x3N"
+port = 
+hostname = ""
+username = ""
+password = ""
 ssh.connect(hostname, port, username, password)
 
 searchinput=""
